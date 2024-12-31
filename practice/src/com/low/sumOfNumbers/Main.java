@@ -11,10 +11,12 @@ public class Main {
 		System.out.println("Enter the numbers");
 		Integer a=input.nextInt();
 		Integer b=input.nextInt();
+		Integer c=input.nextInt();
 		
 		ArrayList<Integer> al=new ArrayList<Integer>();
 		al.add(a);
 		al.add(b);
+		al.add(c);
 		
 		Optional<Integer> result=al
 		.stream()
